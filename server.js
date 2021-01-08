@@ -5,8 +5,8 @@ const port = 8080;
 const server = http.createServer((req, res) => {
     console.log(req.method);
     res.statusCode = 200;
-    res.setHeader('Content-Type', 'text/html');
-    res.end('<h1>Hello, EPAM!</h1>');
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello, EPAM!');
 });
 
 server.listen(port, (err) => {
