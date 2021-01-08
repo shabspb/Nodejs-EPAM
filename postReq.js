@@ -19,5 +19,5 @@ req.on('error', error => {
   console.error(error);
 });
 
-req.write(data);
+req.write('data');
 req.end();
