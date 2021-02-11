@@ -1,10 +1,10 @@
 {
-  "name": "hw5",
+  "name": "hw6",
   "version": "1.0.0",
   "description": "Server with authentication and authorization",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js"
   },
   "author": "Vasilii Shabanov",
@@ -17,5 +17,8 @@
     "passport": "^0.4.1",
     "passport-http-bearer": "^1.0.1",
     "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
